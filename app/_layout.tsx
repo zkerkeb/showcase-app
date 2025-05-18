@@ -10,6 +10,8 @@ export default function RootLayout() {
   const colorScheme = useColorScheme();
   const [loaded] = useFonts({
     SpaceMono: require('../assets/fonts/SpaceMono-Regular.ttf'),
+    PlayfairDisplay: require('../assets/fonts/PlayfairDisplay-Bold.ttf'),
+    Raleway: require('../assets/fonts/Raleway-LightItalic.ttf'),
   });
 
   if (!loaded) {
